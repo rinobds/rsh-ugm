@@ -1,0 +1,69 @@
+.blog-page
+  padding: 60px 0
+  .content-list
+    margin: 15px 0
+    border-radius: 4px
+    box-shadow: 0 3px 6px rgba(34, 48, 221, .16)
+    overflow: hidden
+    text-decoration: none
+    transition: .3s
+    display: block
+    img
+      width: 100%
+    &:hover
+      transform: translateY(-8px)
+
+  .content-desc
+    padding: 25px
+    .title
+      color: #151360
+      font-weight: 500
+    p 
+      font-size: 14px
+      color: #888888
+      margin-bottom: 0
+      margin-top: 10px
+
+  .paginations
+    margin-top: 45px
+    display: flex
+    align-items: center 
+    justify-content: space-between
+    .btn 
+      min-width: 148px
+    .page-number
+      flex: 1
+      justify-content: center
+      display: flex
+      span, a 
+        width: 30px
+        height: 30px
+        border-radius: 50%
+        border: 3px solid #8630DD
+        color: #CD9FE7
+        text-align: center
+        margin: 0 10px
+        text-decoration: none
+      .active
+        color: #ffffff
+        background-color: #8630DD
+
+.blog-detail
+  padding: 60px 0
+  color: #888888
+  .detail-title
+    padding: 0 45px
+    margin-bottom: 40px
+    h4
+      color: #BBBBBB
+      font-size: 24px
+      font-weight: normal
+  img 
+    width: 100%
+  .detail-content
+    padding: 0 45px
+    line-height: 1.8
+    
+    .post-date
+      color: #BBBBBB
+      margin: 40px 0 25px

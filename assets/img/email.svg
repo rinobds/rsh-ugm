@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #8630dd;
+      }
+    </style>
+  </defs>
+  <g id="Group_1054" data-name="Group 1054" transform="translate(-2862 -4573)">
+    <rect id="Rectangle_1400" data-name="Rectangle 1400" class="cls-1" width="20" height="20" transform="translate(2862 4573)"/>
+    <g id="black-envelope" transform="translate(2862 4572.221)">
+      <g id="Group_1040" data-name="Group 1040" transform="translate(0 4.179)">
+        <path id="Path_769" data-name="Path 769" class="cls-2" d="M2.062,5.006l7.2,5.706a1.833,1.833,0,0,0,1.214.352,1.828,1.828,0,0,0,1.213-.352l7.2-5.706c.577-.454.447-.827-.286-.827H2.35C1.617,4.179,1.486,4.552,2.062,5.006Z" transform="translate(-0.48 -4.179)"/>
+        <path id="Path_770" data-name="Path 770" class="cls-2" d="M18.937,7.34l-7.872,5.977a1.911,1.911,0,0,1-2.129,0L1.063,7.34C.478,6.9,0,7.135,0,7.868v9.807a1.337,1.337,0,0,0,1.333,1.333H18.667A1.337,1.337,0,0,0,20,17.675V7.868C20,7.135,19.522,6.9,18.937,7.34Z" transform="translate(0 -5.008)"/>
+      </g>
+    </g>
+  </g>
+</svg>

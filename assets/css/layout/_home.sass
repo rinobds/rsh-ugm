@@ -1,0 +1,124 @@
+.section-opening
+  background-position: bottom right
+  .opening-title
+    min-height: calc(100vh - 119px)
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-item: flex-star
+    .btn 
+      align-self: flex-start
+      font-weight: 500 
+      font-size: 14px
+    h1 
+      font-size: 32px
+      line-height: 40px
+      font-weight: 500
+      color: #8630DD
+      margin-bottom: 10px
+      span 
+        color: #151360
+
+.section-about
+  padding: 90px 0
+
+  .about-desc
+    p 
+      color: #888888
+      margin-bottom: 20px
+
+.section-services
+  padding-bottom: 90px
+  .services-list
+    .list-content
+      padding: 10px 20px
+      border-radius: 10px
+      box-shadow: 0 3px 6px rgba(34, 48, 221, .16)
+      display: flex
+      align-items: center
+      font-weight: 500
+      color: #151360
+      margin: 15px 0
+      text-decoration: none
+      &:hover
+        transform: scale(1.07)
+        color: #8630DD
+      img 
+        width: 60px
+        padding: 10px
+        margin-right: 10px
+
+.section-doctors
+  padding-bottom: 90px
+  .doctors-desc
+    p 
+      color: #888888
+      margin-bottom: 20px
+  .doctors-thumb
+    display: flex
+    padding: 0
+    .doctor-list
+      flex: 0 0 33.33%
+      padding: 0 15px
+      img 
+        width: 100%
+      p 
+        color: #151360
+        font-size: 12px
+        margin-top: 15px
+        font-weight: 500
+
+.section-blog
+  .blog-content
+    padding: 40px 20px 60px
+  .content-list
+    margin: 15px
+    border-radius: 4px
+    box-shadow: 0 3px 6px rgba(34, 48, 221, .16)
+    overflow: hidden
+    text-decoration: none
+    img
+      width: 100%
+    &:hover
+      transform: translateY(-8px)
+
+  .content-desc
+    padding: 25px
+    .title
+      color: #151360
+      font-weight: 500
+    p 
+      font-size: 14px
+      color: #888888
+      margin-bottom: 0
+      margin-top: 10px
+  .container
+    position: relative
+  .arrow-navigation
+    li 
+      width: 30px
+      height: 30px
+      position: absolute
+      top: 50%
+      display: flex
+      align-items: center
+      justify-content: center
+      left: 0
+      cursor: pointer
+      &.next
+        right: 0
+        left: auto
+        transform: rotate(180deg)
+      
+      svg 
+        fill: #151360
+        width: 16px
+        height: 16px
+
+.call-center
+  color: #151360
+  font-size: 24px
+  padding-bottom: 60px
+  span 
+    color: #8630DD
+    font-weight: 500

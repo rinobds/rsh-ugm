@@ -1,0 +1,70 @@
+//
+// Footer Style
+//
+.footer
+  &-inner 
+    border-top: 1px solid #BBBBBB
+    padding: 40px 0
+    display: flex
+    justify-content: space-between
+    color: #151360
+    @media (max-width: 767px)
+      flex-wrap: wrap
+      padding: 20px 0
+      > div 
+        flex: 0 0 100%
+
+    a 
+      color: #151360
+      text-decoration: none
+      font-size: 14px
+      font-weight: 600
+      &:hover 
+        color: #8630DD
+    p 
+      font-size: 12px
+      margin: 0
+      font-weight: 500
+
+  .copyright
+    @media (max-width: 767px)
+      display: none
+      
+    &-mobile
+      display: none
+      @media (max-width: 767px)
+        display: block
+        margin-top: 15px
+  &-logo 
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    .logo-wrapper
+      display: flex
+      align-items: center
+      margin-bottom: 30px
+      @media (max-width: 767px)
+        margin-bottom: 15px
+    img
+      width: 30px
+      margin-right: 10px
+    
+  &-menu 
+    margin-left: -10%
+    @media (max-width: 991px)
+      display: none
+
+  &-sosmed
+    margin-left: -10%
+    @media (max-width: 991px)
+      margin-left: 0
+    @media (max-width: 767px)
+      margin-bottom: 15px
+    a 
+      display: flex
+      align-items: center
+      svg 
+        height: 14px
+        width: 14px
+        margin-right: 20px
+

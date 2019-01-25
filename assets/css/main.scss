@@ -1,0 +1,19 @@
+//====================================
+// Global Imports
+//====================================
+
+$theme-colors: (
+  "primary": #8630DD
+);
+
+// Import bootstrap framework
+@import 'frameworks/index';
+
+@import 'vendor/select2.min';
+@import 'vendor/slick';
+
+// Import layout  styles
+@import 'layout/index';
+
+
+
