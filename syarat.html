@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon" />
+  <title>Rumah Sakit Hewan Prof. Soeparwi</title>
+
+  <!-- build:css -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <!-- endbuild -->
+</head>
+
+<body>
+  <!-- start: .root -->
+  <div class="root">
+    <!-- start: .wrapper -->
+    <div class="wrapper">
+
+      <!-- start: .header -->
+      <header class="header header-third">
+        <div class="container">
+          <div class="main-header">
+            <div class="logo">
+              <a href="index.html">
+                <img
+                  src="assets/img/logo-ugm.svg"
+                  alt="Rumah Sakit Hewan Prof. Soeparwi"
+                />
+                <p>
+                  Rumah Sakit Hewan <br />
+                  Prof. Soeparwi
+                </p>
+              </a>
+            </div>
+
+            <div class="menu-navigation nav">
+              <ul class="main-menu">
+                <li class="active">
+                  <span>1</span>
+                  Syarat & Ketentuan
+                </li>
+                <li>
+                  <span>2</span>
+                  Pendaftaran
+                </li>
+                <li>
+                  <span>3</span>
+                  Resume
+                </li>
+              </ul>
+            </div>
+          </div>
+      </header>
+      <!-- end: .header -->
+
+      <!-- start: .main -->
+      <main class="main">
+        <!-- start: .syarat-page -->
+        <div class="syarat-page">
+          <div class="container">
+            <div class="title">
+              <h3>Syarat dan Ketentuan</h3>
+            </div>
+            <div class="content col-md-11">
+              <p>Pendaftaran online <span class="highlight">tidak dapat</span> dilakukan untuk kasus <span class="highlight">Gawat
+                  Darurat, Grooming,</span> dan <span class="highlight">Pet Care.</span></p>
+              <p>Pendaftaran dilakukan <span class="highlight">paling lambat H-1</span> dari pemeriksaan.</p>
+              <p>Untuk klien yang ingin periksa pada hari <span class="highlight">Senin,</span> paling lambat melakukan
+                pendaftaran pada hari <span class="highlight">Jum'at</span> sebelum <br>
+                jam <span class="highlight">16.00 WIB.</span></p>
+              <p>Klien yang telah mendaftar online akan <span class="highlight">mendapatkan SMS pemberitahuan</span>
+                pengingat jadwal dan verifikasi dari <br>
+                kami.</p>
+              <p>Apabila klien telah mendaftarkan online, klien akan mendapatkan <span class="highlight">bukti
+                  pendaftaran</span> yang dapat dicetak atau<br>
+                disimpan dan <span class="highlight">dibawa</span> pada hari pemeriksaan.</p>
+              <p><span class="highlight">Bukti pendaftaran</span> online dapat diserahkan <span class="highlight">di
+                  loket pendaftaran</span> pada Lt. 1.</p>
+              <p>Klien yang telah melakukan pendaftaran online <span class="highlight">diharapkan datang tepat waktu
+                </span>(paling lambat 1 jam sebelum <br>
+                pemeriksaan).</p>
+              <p>Klien yang <span class="highlight">tidak datang</span> dan <span class="highlight">tidak melakukan
+                  registrasi ulang</span> (paling lambat 1 jam sebelum pemeriksaan) maka <br>
+                pendaftaran otomatis akan <span class="highlight">dibatalkan.</span></p>
+            </div>
+            <div class="button-group">
+              <a href="index.html" class="btn btn-outline-primary">Batal</a>
+              <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#modalDaftar">
+                Lanjut
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- end: .syarat-page -->
+      </main>
+      <!-- end: .main -->
+      <!-- start: modalDaftar -->
+      <div class="modal fade" id="modalDaftar" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="button-option">
+                <a href="daftar-baru.html" class="btn btn-primary"> Pasien Baru</a>
+                <a href="" id="pasien-lama" class="btn btn-outline-primary">Pasien Lama</a>
+              </div>
+              <div class="form-pasien-lama d-none">
+                <h3>No. Rekam Medis</h3>
+                <p>
+                  Silahkan masukkan <br />
+                  No. RM hewan Anda
+                </p>
+                <input type="text" id="input-pasien-lama" placeholder="No. RM Pasien" />
+                <a href="daftar-lama.html" id="lanjut" class="btn btn-primary">Lanjut</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end: modalDaftar -->
+    </div>
+    <!-- end: .wrapper -->
+  </div>
+  <!-- end: .root -->
+
+  <!-- build:js -->
+  <script src="assets/js/main.js"></script>
+  <!-- endbuild -->
+</body>
+
+</html>
